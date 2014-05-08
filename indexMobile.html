@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>Protection Law Group</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--Home-->
+<div data-role="page" id="home">
+  <div data-role="header" data-theme="c">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home" data-theme="c"> <img src="images/mobileLogoPLG.png" width="290" height="190" > </a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="b">
+      <li><a href="#ContactUs">Contact Us</a></li>
+      <li><a href="#FirmOverview">Firm Overview</a></li>
+      <li><a href="#AreasLaw">Areas of Law</a></li>
+      <li><a href="#Referral">Attorney Referrals</a></li>
+       <li><a href="#Testimonials">Testimonials</a></li>
+      <li><a href="#Attorneys">Attorneys</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-theme="d">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home" class="ui-btn-active" data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+ <div align="center"><br/>
+ TELEPHONE: (818) 248-9929<br/>
+    FAX: (866) 264-7880<br/>
+    <span style=" color:#FFF"> 3455 Ocean View Blvd., Ste. 100<br/>
+      Glendale, CA 91208 </span>
+  </div>
+</div>
+<!--Contact Us-->
+<div data-role="page" id="ContactUs">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Protection Law Group</h1>
+  </div>
+  <div data-role="content">
+    <form method="post" action="process.php">
+      <label for="name">Name: <span class="required">*</span></label>
+      <input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus />
+      <label for="email">Email Address: <span class="required">*</span></label>
+      <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required />
+      <label for="telephone">Telephone: </label>
+      <input type="tel" id="telephone" name="telephone" value="" />
+      <label for="enquiry">Enquiry: </label>
+      <select id="enquiry" name="enquiry">
+        <option value="Wage and Hour Law">Wage and Hour Law</option>
+        <option value="Employee Discrimination and Harassment">Employee Discrimination and Harassment</option>
+        <option value="Personal Injury">Personal Injury</option>
+        <option value="Catastrophic Injury">Catastrophic Injury</option>
+        <option value="Workers' Compensation">Workers' Compensation</option>
+        <option value="Civil Rights Violations">Civil Rights Violations</option>
+        <option value="Consumer/Products Liability">Consumer/Products Liability</option>
+      </select>
+      <label for="message">Message: <span class="required">*</span></label>
+      <textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required data-minlength="20"></textarea>
+      <span id="loading"></span>
+      <input type="submit" value="Submit" id="submit-button" />
+      <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+    </form>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" class="ui-btn-active" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Firm Overview-->
+<div  data-role="page" id="FirmOverview" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Firm Overview</h1>
+  </div>
+  <div data-role="content">
+    <p>The attorneys at Protection Law Group, LLP (“PLG”) collectively have over 25 years of big firm experience and have represented some of the largest companies in the world. During that time they amassed a wealth of knowledge about companies approach and defend lawsuits.  Recognizing that these companies sometimes trample and marginalize employee and individual rights, the attorneys at PLG came together to offer the same legal representation they provided to those companies to employees and individuals (as well as small and medium business).  As such, PLG’s clients are provided the benefit of the “Big Firm Experience,” but with the access, connection and availability of “Small Firm Service.” </p>
+    <p> PLG is a California-based law firm specializing in protecting employee and individual rights. PLG also provides guidance and advice to businesses to ensure they comply with both California and Federal Law.  The legal landscape of California, in particular, makes it difficult for employees and employers alike to stay apprised of the various legal developments.  PLG’s lawyers assist employees and employers to understand the ever evolving legal landscape. 
+      As the law constantly changes, what may have been acceptable years ago may no longer be acceptable today. Employees often do not realize that they are entitled to certain workplace rights and employers equally fail to recognize that they have violated those rights.  Whether you fall under California’s jurisdiction, or Federal Law, depending on the work and the size of the business, employees have the right to</p>
+    <ul id="list">
+      <li>A safe work environment free from undue dangers;</li>
+      <li>Privacy for personal matters;</li>
+      <li> Not to be discriminated against on grounds of their age, race, national origin, gender, ethnicity, pregnancy, religion, disability, marital status, gender identity, sexual orientation and other characteristics;</li>
+      <li>Fair pay, meaning  receiving at least a minimum wage, plus overtime for any hours worked over 40 hours a week or over 8 hours a day;</li>
+      <li> A workplace environment with no harassment; and</li>
+      <li> Take time from work to tend to your own, or a family member's, illness, and to take leave following the birth of a child.</li>
+    </ul>
+    <p> Because employees are also individuals and may be hurt or damaged outside the workplace, PLG provides comprehensive legal services to also assist with those injuries.  If you suffer a mild or severe accident, if your civil rights have been violated, or if you purchased a product or service that misrepresented its capabilities and effects or is defective, the attorneys at PLG can assist you with your claims or refer to other competent counsel to help you.</p>
+    <p> PLG’s pledge to its clients is simply this: we are committed to you and your claims and will zealously advocate for your rights.  We are particular about the cases we accept allowing us to aggressively focus our efforts and achieve the best possible results.</p>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Attorneys-->
+<div data-role="page" id="Attorneys">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Attorneys</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#EricB">Eric Boyajian</a></li>
+            <li><a href="#HeatherD">Heather Davis</a></li>
+      <li><a href="#AmirN">Amir Nayebdadash</a></li>
+
+    </ul>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!--Testimonials-->
+<div data-role="page" id="Testimonials">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Testimonials</h1>
+  </div>
+  <div data-role="content">
+
+          <div class="testimonial">"I just wanted to thank you for all the work done on my behalf. It has been a pleasure to work with Mr. Nayebdadash and I would just like to express my gratitude for your kindness and communication. Thank you for your professionalism, promptness and for keeping us informed and always being available and ready to assist me and always answering my questions. Please know that I am very appreciative and most pleased. You've made this long journey of mine easier and I feel very fortunate for having you on my side. Your expertise and kindness in handling everything was invaluable. I am wishing you and your firm much success in the years to come. God Bless you always."</div>
+<div class="author-wrapper">
+<div class="arrow"></div>
+<div class="testimonial-name">Valorie R. - Nov. 4, 2013 <span>Harassment, Retaliation and Various Labor Code Violations</span></div>
+</div>
+          
+          
+                    <div class="testimonial">"I would definitely recommend this firm!  Protection Law Group went above and beyond to settle my case.  It was a very difficult case with no relief in sight...Protection Law Group fought for me, and settled my case.  I am so grateful for all of the hard work they put into my case and if I ever needed representation again, I would come to this firm."</div>
+<div class="author-wrapper">
+<div class="arrow"></div>
+<div class="testimonial-name">Marina G. - Oct. 30, 2013  <span>Harassment, Retaliation and Various Labor Code Violations</span></div>
+</div>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Areas of Law-->
+<div data-role="page" id="AreasLaw">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Areas of Law</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider"><a href="#">Employee Discrimination and Harassment<span class="ui-li-count"; style="color:#F00"  > 11</span> </a>
+        <ul>
+<li><a href="#AgeDisc">Age Discrimination</a></li>
+                <li><a href="#DisDisc">Disability Discrimination And Failure to Accommodate </a></li>
+                <li><a href="#PregDisc">Pregnancy Discrimination</a></li>
+                <li><a href="#RaceDisc">Race And National Orientation Discrimination</a></li>
+                <li><a href="#RaceGender">Race, Gender, Disability, Religious or Pregnancy Harassment </a></li>
+                <li><a href="#ReligDisc">Religious Discrimination</a></li>
+                <li><a href="#Retaliation">Retaliation and Wrongful Termination </a></li>
+                <li><a href="#Orientation">Sex/Gender/ Sexual Orientation/ Transgender Orientation Discrimination</a></li>
+                <li><a href="#SexualHarassment">Sexual Harassment</a></li>
+              
+        </ul>
+      </li>
+      <li data-role="list-divider"><a href="#">Wage and Hour Law<span class="ui-li-count" ; style="color:#F00"  > 15</span></a>
+        <ul>
+                          <li><a href="#CAL">Class Action Litigation</a></li>
+                <li><a href="#Donning">Donning and Doffing Claims</a></li>
+                <li><a href="#Expense">Expense and Tool Reimbursement</a></li>
+                <li><a href="#MealPeriod">Failure To Provide Meal Periods</a></li>
+                <li><a href="#RestPeriod">Failure To Provide Rest Breaks </a></li>
+                <li><a href="#Timekeeping">Liability for Improper Timekeeping and Recordkeeping</a></li>
+                <li><a href="#Misclassification">Misclassification Claims</a></li>
+                <li><a href="#OffClock">Off-The-Clock Claims </a></li>
+                <li><a href="#Overtime">Overtime Claims</a></li>
+                <li><a href="#RegularRate">Regular-Rate Violations</a></li>
+                <li><a href="#Rounding">Rounding Hours/ Shaving Minutes</a></li>
+                <li><a href="#Travel">Travel Time Claims</a></li>
+                <li><a href="#UnpaidBonus">Unpaid Bonus and Commission Claims</a></li>
+                <li><a href="#UnpaidWage">Unpaid Wage Claims</a></li>
+                <li><a href="#Vacation">Vacation Pay</a></li>
+        </ul>
+      </li>
+ <li><a href="#WorkersComp">Workers' Compensation</a></li>
+            <li><a href="#Catastrophic">Catastrophic Injury</a></li>
+            <li><a href="#Personal">Personal Injury</a></li>
+            <li><a href="#Consumer">Consumer/Products Liability</a></li>
+            <li><a href="#CivilRights">Civil Rights Violations</a></li>
+          
+    </ul>
+    </li>
+  </div>
+  <div data-role="footer" data-theme="d">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Referral-->
+<div data-role="page" id="Referral">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Attorney Referrals</h1>
+  </div>
+  <div data-role="content">
+    <p>PLG greatly values and appreciates its relationships with other attorneys.  PLG has partnered with numerous law firms that recognize that when referring or associating in with PLG on a case, they are doing that client a great service. Because many of our cases come from referral attorneys who recognize the superb legal services we provide our clients, we promptly pay referral fees upon the resolution of a case.</p>
+    <p>PLGs attorneys are recognized in the legal community for being at the forefront of employment and other related laws.  For this reason, attorneys that have referred cases to us sometimes do so because other lawyers have declined to take on the case.  Those referring attorneys know that PLG is able to quickly identify nuanced and complex legal issues and consequent violations of employee or individual rights. They also know that not only will PLGs’ lawyers quickly identify the merits of a claim, but that we have the knowledge, will and resources to take it on. </p>
+    <p> If you have a case you would like to discuss, please call us at (818) 248-9929 or contact us through <a href="mailto:eric@protectionlawgroup.com">email</a>. </p>
+  </div>
+  <div data-role="footer" data-theme="d">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Attorney Amir-->
+<div data-role="page" id="AmirN">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Amir Nayebdadash</h1>
+  </div>
+  <div data-role="content" >
+    <div class="infoBox">
+      <div class="mobileRight"  > <img src="images/amir.png" width="200" height="180" > </div>
+      <div class="mobileLeft" > 
+
+    <div align="left">
+           
+           <p>Mr. Nayebdadash is one of the founding partners of PLG. His practice focuses on prosecuting businesses who violate employment laws in single plaintiff and wage and hour class actions. Prior to establishing PLG, Mr. Nayebdadash worked in the Los Angeles office of Littler Mendelson, P.C., the largest labor and employment law firm in the country. While at Littler, Mr. Nayebdadash gained valuable experience defending some of the most recognized companies in California and nationally. Although Mr. Nayebdadash still advises smaller and mid-size businesses in their employment practices, he now uses his knowledge and experience of the inner workings of those companies to successfully litigate claims on behalf of aggrieved and mistreated employees. Mr. Nayebdadash also has extensive jury and bench trial experience and has won each matter he has tried. </p>
+           <p>Mr. Nayebdadash obtained his undergraduate degree from UCLA where he graduated <em>cum laude</em> with a Bachelor of Arts degree in Philosophy. He continued his studies at King’s College School of Law in London, England where he obtained his Master of Arts degree with <em>merit honors</em> in International Relations. Mr. Nayebdadash continued his studies at Pepperdine University School of Law where he obtained his Jurist Doctor degree in only two and a half years with a certification in Alternate Dispute Resolution from the acclaimed <em>Straus Institute for Dispute Resolution</em>.  During law school, Mr. Nayebdadash returned to London where he worked as a legal intern for McDermott, Will and Emery’s London office, and Eversheds, LLP, a prominent multi-national law firm. </p>
+           <p>After law school, Mr. Nayebdadash joined one of the preeminent defense trial lawyers in Southern California, the Law Offices of David J. Weiss, where he helped Mr. Weiss expand his labor and employment practice whose receipts thereafter exceeded all other practice areas. Recognizing his skill and leadership, Littler recruited Mr. Nayebdadash to join its Los Angeles office. </p>
+           <p>Mr. Nayebdadash is active the Iranian-American community through his commitment to the Iranian-American Bar Association (IABA) and membership in several other Iranian-American organizations. He recently served as the Representative on the National Board of Directors for the IABA and remains an active member in the organization and the community. </p>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Attorney Heather-->
+<div data-role="page" id="HeatherD">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Amir Nayebdadash</h1>
+  </div>
+  <div data-role="content" >
+    <div class="infoBox">
+      <div class="mobileRight"  > <img src="images/heather.jpg" width="200" height="180" > </div>
+      <div class="mobileLeft" > 
+
+    <div align="left">
+           
+           <p>Ms. Davis handles all areas of employment law and was recognized as one of the top class attorneys at her former law firm, the largest Labor and Employment law firm in the United States solely dedicated to representing employers.  She has represented dozens of Fortune 500 corporate companies throughout the country.  Her practice includes the representation of companies in state and federal courts in California, Colorado, Texas, Kansas, Minnesota, Tennessee, Missouri, Arkansas and Oklahoma.  During her legal career, Ms. Davis has gained the tactical experience in handling employment cases and led teams of lawyers in obtaining successful results in dozens of class actions.  Ms. Davis was one of the few attorneys who helped to develop law regarding claims brought under the Private Attorney General Act, Cal. Lab. Code §2699 et seq.</p>
+
+<p>Her representation in the wage and hour realm has included handling complex cases regarding minimum wage violations, overtime wages, meal and rest periods, wage statement violations, donning and doffing, business expenses, misclassifications of managers and independent contractors.  Ms. Davis also handles employment lawsuits involving claims of discrimination and harassment based on gender, race, national origin, religion, sexual orientation, pregnancy, age and disabilities.  </p>
+Her experience includes:
+<ul>
+<li>Managed wage and hour class actions for numerous large national retailers involving claims of off-the clock work, missed lunch and break periods</li>
+<li>Successfully litigated class action involving age discrimination involving complex wage and hour claims</li>
+<li>Defended Fortune 500 employer in cases involving alleged misclassification of independent contractors as employees</li>
+<li>Handled defense of a national retailer in a wage and hour class action involving claims of misclassified exempt managers</li>
+<li>Successfully defended multi-plaintiff sexual harassment cases on behalf of employers in both the retail and media industries</li>
+<li>Strategically managed four separate class actions involving claims against national banking institution for claims of misclassification to obtain a highly favorable resolution</li>
+<li>Obtained Ninth Circuit affirmation of decision upholding national employee benefit plan on behalf of entertainment company</li>
+<li>Represented Fortune 5 Company in dozens of cases involving wage and hour and discrimination cases</li>
+<li>Extensively litigated a class action brought against a security services firm involving meal and rest break claims</li></ul>
+<p>
+Ms. Davis continues to zealously represent employers and employees in her practice and uses her experience working in the largest Labor and Employment law firm in country to ensure that her clients receive not only the skill and resources typically associated with attorneys working in larger law firms but the genuine relationship often established with a client in smaller firms.  By using her big firm experience in a small firm setting, she has the keen ability to provide practical advice in the midst of complex and evolving area of law.   Ms. Davis’ successful representation of employers allows her a unique perspective in representing employees in litigation against employers.  </p>
+<p>
+Ms. Davis uses her experience in and out of the courtroom, including her trial experience in litigating individual and class action cases involving wage and hour violations and discrimination.  She continues to counsel and advise clients on all facets of employment law, including the negotiation of executive agreements, training for Human Resource Professionals and managers.    </p>
+<p>
+Ms. Davis is licensed to practice in is admitted to practice before the Central, Eastern, Northern and Southern District Courts of California, the United States Court of Appeals for the Ninth and Tenth Circuits, the District of Colorado, the Northern District of Texas, the District of Minnesota, and the State of Arizona.   
+</p>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Attorney Eric-->
+<div data-role="page" id="EricB">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Eric Boyajian</h1>
+  </div>
+  <div data-role="content" >
+    <div class="infoBox">
+      <div class="mobileRight"  > <img src="images/eric.jpg" width="160" height="190" > </div>
+      <div class="mobileLeft" >
+        <p>Mr. Boyajian’s practice focuses on labor and employment litigation and counseling, including areas such as:</p>
+        <ul>
+          <li>Wage and Hour</li>
+          <li>Wrongful Termination</li>
+          <li>Trade Secrets and Unfair Competition</li>
+          <li>Harassment</li>
+          <li>Discrimination</li>
+          <li>Retaliation</li>
+          <li>Leaves of Absence</li>
+          <li>Privacy</li>
+          <li>Contracts</li>
+        </ul>
+      </div>
+    </div>
+    <div align="left">
+      <p>Previously, from 2007 through February 2012, Mr. Boyajian served as the General Counsel for an industrial bakery, Global Bakeries, Inc. There, Mr. Boyajian counseled on all issues related to the bakery, beyond labor and employment / human resources issues. Mr. Boyajian negotiated and drafted numerous contracts; he advised on how to comply with federal food safety laws; and he litigated against customers, vendors and distributors.
+        From 2005 to 2007, Mr. Boyajian was an Associate Attorney in the labor and employment department of Lewis Brisbois Bisgaard & Smith LLP. There, Mr. Boyajian handled all issues, as mentioned above, except his focus was on defense litigation. During this time, Mr. Boyajian had two articles published: Policy on Refusing to Hire Smokers: Why a California Employer Will Likely Be Able to Enforce Such a Policy, The Job Description, The Newsletter of the DRI Employment Law Committee, Winter 2007, at 37; and Federal Rules of Civil Procedure Adapt to Modern E-Business, Lewis Brisbois Bisgaard & Smith LLP’s Employment Newsletter, Spring 2007, at 10.</p>
+      <p>Prior to his time as a labor and employment litigator, Mr. Boyajian held clerkships with the following institutions: Albert Abkarian & Associates; L.A. District Attorney’s Office (Preliminary Hearings Unit and Hardcore Gang Unit); National Association of Securities Dealers; California Superior Court, Malibu Courthouse – Judge Lawrence Mira; and United States District Court, Central District of California – Judge Dikran Tevrizian.
+        Mr. Boyajian received his Juris Doctor from Pepperdine School of Law. He also received the honor of being on the Dean’s List; the Witkin Award for Academic Excellence; and the CALI Excellence for the Future Award. Mr. Boyajian received his Bachelor of Arts from the University of Southern California in International Relations, with a Minor in Business Administration.</p>
+      <p>Mr. Boyajian also regularly volunteers in a charitable community organization called the Armenian Youth Association of the Armenian General Benevolent Union. He was on the committee for the AGBU-AYA 2012 World Games; from 2006 to 2007 he was the chairman of the AGBU-AYA San Fernando Valley Chapter; and from 1994 to 2000 he fulfilled various roles related to the AGBU-AYA San Fernando Valley Boy Scouts Troop 440, such as Committee Chairman, Local Commissioner, Scoutmaster, Asst. Scoutmaster and Cubmaster.</p>
+    </div>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar">
+      <ul >
+        <li><a href="#home"  data-theme="c">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Class action litagation-->
+<div  data-role="page" id="CAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Class Action Litigation</h1>
+  </div>
+  <div data-role="content">
+ 
+              <p>A class action, a class suit, or a representative action is a form of lawsuit in which a large group of people (the class) collectively bring a claim to court against a defendant or multiple defendants. In a class action, the harm typically suffered by an individual class member may be so minimal that it is not worth the time and effort of the individual, or an attorney, to bring the suit. However, if several people are harmed or injured, a class action is the best legal mechanism to compensate the aggrieved for their injuries and loss.</p><p>
+In the wage and hour context, for example, an employer’s failure to provide rest breaks, authorize and permit meal periods, and pay for all time worked, may only account for relatively small amounts of monies owed to any individual employee. In such a case, it makes more sense to bring the claim as a class or representative action so that all employees are justly compensated.  Those brave enough to stand forward and serve a class representative are often provided with additional compensation for his or her courage.  If you feel that you and other employees have been harmed by your employer, please do not hesitate to contact us and discuss your claim.
+</p>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Donning" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Donning and Duffing</h1>
+  </div>
+  <div data-role="content">
+ 
+                <p>Should a person who is required to put on uniform or work gear prior to a shift and take it off after be paid overtime for dressing? The answer is <span style="text-decoration:underline">yes</span>.  </p><p>
+Donning and doffing lawsuits concern whether or not putting on mandatory work gear is considered time spent working. Many lawsuits have been filed alleging that time spent in mandatory work-related duties, including dressing in required gear, should be compensated. For many employees this actually occurs before or after an 8 hour shift, making time spent dressing and undressing unpaid overtime.</p><p>
+The time it takes for an individual employee to don or doff work related clothing may seem inconsequential, but when such time is aggregated in class and collective actions it can be significant. 
+</p>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Expense and Tool Reimbursement-->
+<div  data-role="page" id="Expense" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Expense and Tool Reimbursement</h1>
+  </div>
+  <div data-role="content">
+ 
+                 <p> California law prohibits employers from requiring their employees to carry the cost of doing business. As such, employers must reimburse employees for all reasonable and necessary expenses associated with carrying out their duties and responsibilities for the employer. Employees cannot waive, or be forced to waive, their rights to reimbursement. </p>
+          <p> What does this mean for employers and employees? Employers must reimburse employees for all expenses reasonably and necessarily related to work. Such reimbursable expenses include:
+  </p>
+          <ul>
+            <li><i>Mileage</i> – reimbursement for mileage if the employee is required to drive (other than the drive to and from work). </li>
+            <li><i>Mobile Phone</i> – for employees required to carry them and take business related calls. </li>
+            <li><i>Home Office</i> - if the employer requires the employee to have a home office, the employer must cover certain expenses reasonably and necessarily related to that office. </li>
+            <li><i>Client Gifts</i> – Gifts given to clients to continue and further the business relationship. </li>
+            <li><i>Client Entertainment</i> – Taking clients to dinner or a sporting event with the hope of gaining or furthering the business relationship. </li>
+          </ul>
+          <p>Moreover, some expenses for tools required to perform a job are reimbursable. The California Industrial Welfare Commission's Wage Order states that “when hand tools or equipment are required by the employer or are necessary to the performance of a job, such tools and equipment shall be provided and maintained by the employer, except that an employee whose wages are at least two times the minimum wage provided herein may be required to provide and maintain hand tools and equipment customarily required by the trade or craft.” As such, in most industries that require tools to perform the job, the employer must either provide the tools or pay the employee at least twice the minimum wage to comply with the Wage Order. </p>
+  </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Age Disrimination-->
+<div  data-role="page" id="AgeDisc" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Age Discrimination</h1>
+  </div>
+  <div data-role="content">
+          <p> California law protects workers aged 40 or older from age discrimination in the workplace or in hiring practices. Beginning with interviewing applicants, it is illegal to ask any questions related to protected statuses such as age because California employers are prohibited from using age to deny employment to any individual who may be 40 years or older.  In fact, employers cannot legally ask an interviewee’s age.  </p><p>
+California law also forbids using age when it comes to any aspect of employment, including hiring, firing, pay, job assignments, promotions, layoff, training, fringe benefits, and any other term or condition of employment.
+
+
+</p> </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Disability Discrimination-->
+<div  data-role="page" id="DisDisc" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Disability Discrimination And Failure to Accommodate</h1>
+  </div>
+  <div data-role="content">
+         
+         <p> California law protects disabled workers (qualified individuals with disabilities) from employment discrimination. An individual may be considered “disabled” if he or she has a physical or mental impairment that “in any way” limits one or more major life activities, by making the activity “difficult.”
+Major life activities most commonly include activities such as eating, sleeping, reproduction, walking, performing even a single job, hearing, speaking, breathing, caring for oneself, learning, interacting with others, and performing manual tasks. California law specifically enumerates certain conditions, such as diabetes, epilepsy, clinical depression, bipolar disorder, HIV and/or AIDS, heart disease, and hepatitis, as disabilities (regardless of severity).
+Under California law, employers have a duty to provide a qualified disabled employee with reasonable accommodation. If an employee requests and identifies a reasonable accommodation that would allow him or her to perform his or her duties, the employer is required to engage in a timely interactive process with the employee, to determine whether the employee may be reasonably accommodated at work. Such reasonable accommodations would include (1) alterations that make facilities readily accessible to the disabled, and (2) a restructuring of the job by reassignment, transfer, modification of equipment, or an alteration of duties.</p><p>
+If you believe that your employer has discriminated against you based on your disability by not acting in good faith during the reasonable accommodation process or by failing to propose a reasonable accommodation that allows you to perform the duties of your employment, you may have a claim for disability discrimination for failure to accommodate a disability and/or for failure to engage in the interactive process.
+</p> </div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Pregnancy Discrimination-->
+<div  data-role="page" id="PregDisc" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Pregnancy Discrimination And Failure to Accommodate</h1>
+  </div>
+  <div data-role="content">
+         
+              <p> Pregnancy discrimination involves treating a woman (an applicant or employee) unfavorably because of pregnancy, childbirth, or a medical condition related to pregnancy or childbirth.</p><p>
+California law forbids discrimination based on pregnancy when it comes to any aspect of employment, including hiring, firing, pay, job assignments, promotions, layoff, training, fringe benefits, such as leave and health insurance, and any other term or condition of employment.</p><p>
+If a woman is temporarily unable to perform her job due to a medical condition related to pregnancy or childbirth, the employer or other covered entity must treat her in the same way as it treats any other temporarily disabled employee. For example, the employer may have to provide light duty, alternative assignments, disability leave, or unpaid leave to pregnant employees if it does so for other temporarily disabled employees.
+
+</p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Race Disc-->
+<div  data-role="page" id="RaceDisc" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Race And National Orientation Discrimination</h1>
+  </div>
+  <div data-role="content">
+         
+             <p> An employer commits racial discrimination when it makes job decisions on the basis of race, or when it adopts neutral job policies that disproportionately affect members of a particular race.</p><p>
+An employer discriminates on the basis of national origin when it makes employment decisions based on a person's ancestry, birthplace, or culture, or on linguistic characteristics or surnames associated with a particular ethnic group. For example, an employer who refuses to hire anyone with an ethnic last name discriminates, as does an employer who won't allow anyone with an accent to work with the public.</p><p>
+Federal and state laws forbid race and national origin discrimination in every aspect of the employment relationship, including hiring, firing, promotions, compensation, job training, or any other term or condition of employment. Even employment policies or criteria that seem neutral may be discriminatory if they have a disproportionate impact on members of a particular race. Rules or policies that have a disproportionate impact on people of a certain race will pass legal muster only if you can show that there is a legitimate and important work reason for the policy.
+</p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Race and Gender disc-->
+<div  data-role="page" id="RaceGender" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Race, Gender, Disability, Religious or Pregnancy Harassment</h1>
+  </div>
+  <div data-role="content">
+         
+         <p> Harassment is a form of employment discrimination that violates several California and Federal laws. Harassment is defined as unwelcome conduct that is based on race, color, religion, sex (including pregnancy), national origin, age (40 or older), disability or genetic information. Harassment becomes unlawful where 1) enduring the offensive conduct becomes a condition of continued employment, or 2) the conduct is severe or pervasive enough to create a work environment that a reasonable person would consider intimidating, hostile, or abusive. Anti-discrimination laws also prohibit harassment against individuals in retaliation for filing a discrimination charge, testifying, or participating in any way in an investigation, proceeding, or lawsuit under these laws; or opposing employment practices that they reasonably believe discriminate against individuals, in violation of these laws.</p><p>
+Harassing and offensive conduct includes offensive jokes, slurs, epithets or name calling, physical assaults or threats, intimidation, ridicule or mockery, insults or put-downs, offensive objects or pictures, and interference with work performance. Harassment can occur in a variety of circumstances, for example, the harasser can be the victim's supervisor, a supervisor in another area, an agent of the employer, a co-worker, or a non-employee. The victim does not have to be the person harassed, but can be anyone affected by the offensive conduct. Unlawful harassment may occur without economic injury to, or discharge of, the victim.
+</p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Religious Discrimination-->
+<div  data-role="page" id="ReligDisc" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Religious Discrimination</h1>
+  </div>
+  <div data-role="content">
+         
+        <p> Religious discrimination involves treating a person (an applicant or employee) unfavorably because of his or her religious beliefs. The law protects not only people who belong to traditional, organized religions, such as Buddhism, Christianity, Hinduism, Islam, and Judaism, but also others who have sincerely held religious, ethical or moral beliefs.</p><p>
+Religious discrimination can also involve treating someone differently because that person is married to (or associated with) an individual of a particular religion or because of his or her connection with a religious organization or group.</p><p>
+The law forbids religious discrimination when it comes to any aspect of employment, including hiring, firing, pay, job assignments, promotions, layoff, training, fringe benefits, and any other term or condition of employment.
+
+
+</p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Retaliation-->
+<div  data-role="page" id="Retaliation" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Retaliation and Wrongful Termination </h1>
+  </div>
+  <div data-role="content">
+         
+        
+         <p> Retaliation occurs when an employer punishes an employee for engaging in legally protected activity. Retaliation can include any negative job action, such as demotion, discipline, firing, salary reduction, or job or shift reassignment. Retaliation can also be subtle negative changes in the workplace atmosphere. As long as the employer's adverse action would deter a reasonable person in the situation from making a complaint, it constitutes illegal retaliation.</p><p>
+A wrongful termination in violation of public policy occurs where the termination of an otherwise at-violates a “public policy.” The basis of a wrongful termination action, the policy in question, must be well established and substantial and it must be based on either a statute or constitutional provision. There are obvious violations of public policy, such as terminating an employee for refusing to fire another employee because that employee is black and over 40 years of age. </p><p>
+The reason that these types of terminations violate public policy is because it is good public policy to encourage employees to refuse to engage in activities that violate the law, or to allow their employers to engage in such activities. Protecting employees in the event they witness or are pressured into engaging in illegal activities, or in the event they act to protect their own rights, promotes respect for the law by employers and encourages lawful behavior. It also allows employees to protect themselves and fight for their own rights without fear of retaliation from employers.
+
+</p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Orientation-->
+<div  data-role="page" id="Orientation" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Sex/Gender/Sexual Orientation/Transgender Orientation Discrimination</h1>
+  </div>
+  <div data-role="content">
+             <p> Sex or gender discrimination involves treating someone (an applicant or employee) unfavorably because of that person's sex or gender. Discrimination against an individual because that person is transgender (also known as gender identity discrimination)  is also prohibited under California law. Additionally, lesbian, gay, and bisexual individuals may bring sex discrimination claims.  These may include, for example, allegations of sexual harassment or other kinds of sex discrimination, such as adverse actions taken because of the person's non-conformance with sex-stereotypes. Sex discrimination also can involve treating someone less favorably because of his or her connection with an organization or group that is generally associated with people of a certain sex or sexual orientation. Finally, an employment policy or practice that applies to everyone, regardless of sex, can be illegal if it has a negative impact on the employment of people of a certain sex and is not job-related or necessary to the operation of the business.
+</p>
+
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Sexual Harassment-->
+<div  data-role="page" id="SexualHarassment" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Sexual Harassment</h1>
+  </div>
+  <div data-role="content">
+                   <p> It is unlawful to harass a person (an applicant or employee) because of that person’s sex. California law defines sexual harassment as “unwelcome verbal, visual or physical conduct of a sexual nature that is severe or pervasive and affects working conditions or creates a hostile work environment.”  Examples of sexual harassment include unwelcome sexual advances, requests for sexual favors, and other verbal or physical harassment of a sexual nature. </p><p>
+Under California law there are two types of recognized sexual harassment:</p><p>
+There are two types of sexual harassment under California law: </p><p>
+<i>Quid pro quo sexual harassment:</i> This type of harassment occurs when one employee offers professional advancement in exchange for sexual favors or threatens that an employee's career will suffer if the employee does not engage in certain activities, such as dating or intercourse. </p><p>
+<i>Hostile work environment sexual harassment:</i> This type of harassment occurs when a work environment is so permeated with sexual statements, actions, attitudes and behaviors that are intimidating or discriminatory that it makes it difficult for employees to work. This type of harassment is more common but more difficult to prove.
+</p>
+<p>If you believe that you are a victim of sexual harassment, contact our firm immediately for a free consultation.</p>
+
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="MealPeriod" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Failure To Provide Meal Periods</h1>
+  </div>
+  <div data-role="content">
+         <p> In California, an employer may not employ an employee for a work period of more than five hours per day without providing the employee with a meal period of not less than thirty minutes, except that if the total work period per day of the employee is no more than six hours, the meal period may be waived by mutual consent of both the employer and employee. A second meal period of not less than thirty minutes is required if an employee works more than ten hours per day, except that if the total hours worked is no more than 12 hours, the second meal period may be waived by mutual consent of the employer and employee only if the first meal period was not waived. </p><p>
+If the employer requires the employee to remain at the work site or facility during the meal period, the meal period must be paid. This is true even where the employee is relieved of all work duties during the meal period.
+  </p><p>
+Further, if an employer fails to provide an employee a meal period, the employer must pay one additional hour of pay at the employee's regular rate of pay for each workday that the meal period is not provided. This additional hour is not counted as hours worked for purposes of overtime calculations. </p>
+
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="RestPeriod" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Failure To Provide Rest Periods</h1>
+  </div>
+  <div data-role="content">
+        <p> In California, employers must authorize and permit nonexempt employees to take a rest period that must, insofar as practicable, be taken in the middle of each work period. The rest period is based on the total hours worked daily and must be at the minimum rate of a net ten consecutive minutes for each four hour work period, or major fraction thereof. A rest period is not required for employees whose total daily work time is less than three and one-half hours. The rest period is counted as time worked and therefore, the employer must pay for such periods. Since employees are paid for their rest periods, they can be required to remain on the employer's premises during such periods.</p><p>
+If an employer fails to provide an employee with a rest period, the employer shall pay the employee one additional hour of pay at the employee's regular rate of pay for each workday that the rest period is not provided. Thus, if an employer does not provide all of the rest periods required in a workday, the employee is entitled to one additional hour of pay for that workday, not one additional hour of pay for each rest period that was not provided during that workday.
+
+ </p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Timekeeping" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Liability For Improper Timekeeping And Recordkeeping</h1>
+  </div>
+  <div data-role="content">
+ <p>
+Under both California and Federal law employers must keep certain records for each non-exempt employee. While there is no required form that the records must be held, employers are required to include certain identifying information about their employees and data about the hours worked and the wages earned. The law also requires this information to be accurate.
+The following is a listing of the basic records that an employer must maintain or face liability:</p>
+<ol>
+<li>       Employee’s full name and social security number.</li>
+<li>    Address, including zip code.</li>
+<li>      Birth date, if younger than 19.</li>
+<li>     Sex and occupation.</li>
+<li>       Time and day of week when employee’s workweek begins.</li>
+<li>    Hours worked each day.</li>
+<li>      Total hours worked each workweek.</li>
+<li>      Basis on which employee's wages are paid (e.g.,  “$9 per hour,” “$440 a week,” “piecework”).</li>
+<li>       Regular hourly pay rate.</li>
+<li>   Total daily or weekly straight-time earnings.</li>
+<li>   Total overtime earnings for the workweek.</li>
+<li>  All additions to or deductions from the employee’s wages.</li>
+<li>   Total wages paid each pay period.</li>
+<li>  Date of payment and the pay period covered by the payment.</li>
+<li>  How Long Should Records Be Retained:</li>
+</ol>
+<br/>
+<p>
+Also, each employer shall preserve for at least three years payroll records, collective bargaining agreements, sales and purchase records. Records on which wage computations are based should be retained for two years, i.e., time cards and piece work tickets, wage rate tables, work and time schedules, and records of additions to or deductions from wages. The records may be kept at the place of employment or in a central records office.
+          </p>
+          
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Misclassification" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Misclassification Claims</h1>
+  </div>
+  <div data-role="content">
+
+         <p> The misclassification of employees as something other than employees, such as independent contractors or exempt from overtime, presents a serious problem for affected employees, employers, and to the economy. Misclassified employees are often denied access to critical benefits and protections such as family and medical leave, overtime, minimum wage and unemployment insurance – which they are entitled. Employee misclassification also generates substantial losses to the Treasury and the Social Security and Medicare funds, as well as to state unemployment insurance and workers’ compensation funds.
+</p><p>Recently, many California employers have misclassified their workers as “independent contractors” to avoid the costs and expenses associated with payroll, overtime pay, workers’ compensation insurance, disability insurance and leave, and other traditional benefits and protections offered by an employer. Aggrieved workers have brought claims, usually via class or collective actions, for compensation and benefits not offered nor received resulting from their employer’s decision to misclassify them. Businesses operating in California should also be aware that the IRS and various state agencies have significantly increased compliance audits to ensure businesses are complying with employment tax laws and withholding requirements. </p>
+          
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="OffClock" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Off-The-Clock Claims</h1>
+  </div>
+  <div data-role="content">
+<p> State and Federal laws require employers to pay non-exempt employees wages for all time worked. While this can be a minor issue on an individual level, off-the-clock litigation has become increasingly prominent in class-action lawsuits.</p><p>
+Under California law “hours worked” is defined as the time during which an employee is subject to the control of an employer, and includes “all the time the employee is suffered or permitted to work, whether or not required to do so”.
+ </p><p>
+The definition of hours worked extends beyond an employee’s scheduled shift, in various circumstances, including instances involving pre and post shift duties. There are various categories of compensable time that are recognized at both the State and Federal levels, including:</p>
+<ul>
+<li>Standby or On-call time</li>
+<li>Travel time</li>
+<li>Call Back time</li>
+<li>Rest periods</li>
+<li>Preparatory and Concluding activity time</li>
+<li>Lectures, meeting, and training time</li>
+</ul>
+<p>
+Some of the more common off-the-clock violations relating to the list of compensable time above include:</p>
+<ul>
+<li>Requiring employees to work extra hours without pay.</li>
+<li>Requiring employees to perform work before or after they clock in for their shift.</li>
+<li>Failing to pay employees for the entire time they are performing work, not just the time they are “clocked in.”</li>
+<li>Automatically deducting a meal period from an employee’s hours when no meal period was actually taken.</li>
+<li>Deducting break time(s) from an employees work hours.</li>
+<li>Requesting that employees work on the weekend without clocking in.</li>
+<li>Failing to compensate employees who bring work home and continue to work outside of their “regular” workday.</li>
+<li>Failure to pay employees for pre- and post-shift work. These activities involve “donning” (putting on) or “doffing” (taking off) protective equipment or uniforms.
+</ul>
+ </p>         
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Overtime" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Overtime Claims</h1>
+  </div>
+  <div data-role="content">
+  <p> In California, overtime laws require nonexempt employees to be employed more than eight hours in any workday or more than 40 hours in any workweek unless he or she receives one and one-half times his or her regular rate of pay for all hours worked over eight hours in any workday and over 40 hours in any workweek. Eight hours of labor constitutes a day's work, and employment beyond eight hours in any workday or more than six days in any workweek is permissible provided the employee is compensated for the overtime at not less than:</p>
+         <ol>
+<li> One and one-half times the employee's regular rate of pay for all hours worked in excess of eight hours up to and including 12 hours in any workday, and for the first eight hours worked on the seventh consecutive day of work in a workweek; and</li>
+
+<li>Double the employee's regular rate of pay for all hours worked in excess of 12 hours in any workday and for all hours worked in excess of eight on the seventh consecutive day of work in a workweek.</li></ol><p>
+Simply stated, California law protect the rights of California employees to receive overtime pay for working more than 8 hours in a day or 40 hours in a week.
+
+ </p>        
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="RegularRate" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Regular-Rate Violations</h1>
+  </div>
+  <div data-role="content">
+<p>
+California companies that do not properly pay their employees for overtime hours worked are in violation of California’s Labor laws.  Generally speaking, California law mandates that employees be paid overtime at<em><span style="text-decoration:underline"> the employee’s “regular rate” of pay</span></em> whenever he or she works more than 8 hours in a day or 40 hours in a work week.  An employee’s “regular rate” of pay must factor in applicable wage enhances or increases such as shift premiums, shift differentials, non-discretionary bonuses, sales commissions, SPIFFS, “good attendance” bonuses or piece-rate pay when calculating the regular rate for purposes of paying overtime.   
+</p>
+
+<p>
+<em>For example</em>, if an employee ordinarily makes $12/hour, but has worked a special shift that pays a shift differential (such as a graveyard shift) putting his hourly rate at $15/hour, overtime hours worked during that pay period need to factor in that wage augment (i.e., shift differential) in calculating the worker's overtime pay.</p>
+<p>
+Many employers fail to include such wage enhancements when calculating the rate of pay for overtime. If you suspect that your overtime pay rate does not factor in such wage increases or pay differentials that you earned, you may have a claim. To find out, please contact us!</p>      
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Rounding" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Rounding Hours/Shaving Minutes</h1>
+  </div>
+  <div data-role="content">
+ <p> Many employers do not pay employees according to the exact number of hours and minutes they work, but rather utilize some sort of "rounding" or "roundoff" system whereby a certain interval is set that serves as the minimum block of time that will be recognized as a unit of time worked or not worked </p><p>
+Generally speaking, employers may be legally permitted to round time if the starting and stopping times are to the nearest 5 minutes or to the nearest tenth or quarter of an hour in calculating an employee's pay. However, this is acceptable only if the practice averages out so that employees are properly paid for all of the time they actually work. Rounding does not excuse arbitrarily failing to record or properly pay for any amount of an employee's fixed, regular, or practically-ascertainable worktime.</p><p>
+Yet, most employers simply get it wrong. For example, rounding to the nearest quarter-hour typically means that the employee's starting time-entry is rounded back for up to 7 minutes after the quarter-hour and forward for 8 minutes or more past the quarter-hour. As applied to an employee whose scheduled starting time is 8 a.m., punching in at 7:52 a.m. would be rounded to 7:45 a.m.; punching in at 7:53 a.m. would be rounded to 8 a.m. By contrast, a practice of always rounding to 8 a.m. if the employee punches in at any point after 7:45 a.m. could cause the employee not to be paid for all hours worked over a period of time.
+ 
+ </p></div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Travel" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1>Travel Time Claims</h1>
+  </div>
+  <div data-role="content">
+         <p>  An employee who travels from home before the regular workday and returns home at the end of the workday is engaged in ordinary home to work travel, which is not work time. This is true whether you work at a fixed location or at different job sites.</p><p>
+However, if your employer requires you to travel to another work-site, the time spent traveling between your home and the new work-site may be hours worked. Examples of such work related duties which may be hours worked include:</p>
+<ul>
+<li>Providing transportation for other employees to or from the work site;</li>
+<li>Picking up supplies or equipment from local suppliers while traveling to or from the work site; or</li>
+<li>Stopping at a place of business (e.g. home office) to pick up supplies, tools, to receive instructions or do other work there before traveling to or from your work site.</li>
+</ul><p>
+Moreover, driving a “company car” or other vehicle provided by the employer does not necessarily absolve the employer from paying the employee for that travel time. For your time spent commuting in your employer’s vehicle to not be considered hours worked, the following criteria must be met:</p>
+<ul>
+<li>It is a vehicle of a type normally used for commuting;</li>
+<li>You are able to use the normal route for the commute;</li>
+<li>You do not incur any additional costs using your employer's vehicle;</li>
+<li>The home-to-work travel is within your employer's normal commuting area; and</li>
+<li>The use of the vehicle for commuting is subject to an agreement between you (or your representative) and your employer.</li>
+</ul>
+ </p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="UnpaidBonus" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Unpaid Bonus and Commission Claims</h1>
+  </div>
+  <div data-role="content">
+
+         <p>  Sales commissions and performance-based bonuses form an important component of the annual compensation received by many employees, including those in the real estate, financial services, brokerage, private equities, pharmaceutical, and other sales-related industries. </p><p>
+While employers have the discretion to implement and modify the terms of a commission plan or bonus agreement, they generally cannot interfere with an employee’s earned commissions. Disputes frequently arise when an employer announces modifications to an employee’s existing commission plan or bonus agreement, and when an employee is either terminated or resigns before payment is made.
+ </p><p>
+The more common dispute arises when an employee is terminated or resigns before payment is made. Whether an employee may recover sales commissions after termination is based, in part, on a number of factors, including:</p>
+<ul>
+<li>Whether the commission plan is written or oral; </li>
+<li>The clarity of the commission plan’s terms;</li>
+<li>The plan’s definition of when a commission is earned or accrues;</li>
+<li>The amount of duties remaining, if any, needed to be performed to complete the sale at the time of the employee’s departure;</li>
+<li>The employer’s custom or practice of paying other departed employees; and</li>
+<li>Whether or not the employer discharged the employee with good cause</li>
+</ul><p>
+An employee who is denied commissions or bonuses may be able to proceed with a claim for failure to pay wages owed as well as breach of contract claim and sometimes fraud.
+ 
+ </p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="UnpaidWage" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Unpaid Wage Claims </h1>
+  </div>
+  <div data-role="content">
+
+        <p> Under California law, employees may bring claims for wages owed/earned but unpaid. These types of unpaid wage claims include: </p>
+         <ul>
+<li>Unpaid wages, including overtime, commissions and bonuses.</li>
+<li>Wages paid by check issued with insufficient funds.</li>
+<li>Final paycheck not received.</li>
+<li>Unused vacation hours that were not paid upon termination of the employment relationship, e.g., a quit, discharge, or layoff.</li>
+<li>Unauthorized deductions from paychecks.</li>
+<li>Unpaid/non-reimbursed business expenses.</li>
+<li>Reporting time pay/split shift premiums.</li>
+<li>Failure to provide a meal and/or rest period in accordance with the applicable Industrial Welfare Commission Order.</li>
+<li>Liquidated damages for failure to receive minimum wage for each hour worked.</li>
+<li>Waiting time penalties for failure to receive final wages timely upon separation of employment.</li>
+<li>Penalties for paycheck(s) not negotiable within 30 days of receipt.</li>
+<li>Penalties for employer’s failure to allow inspection or copying of payroll records within 21 days of request.</li>
+</ul>
+
+ </p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Vacation" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Vacation Pay </h1>
+  </div>
+  <div data-role="content">
+
+         <p> While California law does not require employers to give their workers paid vacation days, most companies do pay for some vacation days. In fact, more than 90% of all full-time employees in private industry receive paid vacation, according to 2011 figures from the Federal Bureau of Labor Statistics.</p><p>
+Employers may not discriminate based on race, religion, or disability regarding who is entitled to paid vacation days. Beyond this legal restriction, however, employers are generally free to offer as much or as little vacation as they see fit and to set eligibility rules that make sense for their business.</p><p>
+Further, companies are also free to adopt schedules for vacation accrual. If an employee has accrued vacation days that the employee did not use before quitting or being terminated, the employee may be entitled to be paid for that time.
+
+ </p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="WorkersComp" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Workers’ Compensation </h1>
+  </div>
+  <div data-role="content">
+
+      <p> 
+Workers’ compensation laws are designed to provide injured workers with specific benefits and a legal
+forum in which disputes can be resolved between (i) injured workers and employers; and (ii) injured
+workers, employers and insurance companies. A workers’ compensation claim is not a lawsuit against
+the employer; it is simply a request for insurance benefits.</p><p>
+In order to receive workers’ compensation benefits an employee must report his or her workplace
+injury to the employer as soon as possible after it occurs. The employer must then file a workers’
+compensation claim with the work comp insurance carrier so that the workers’ compensation claim will
+be paid. Because the employee is injured at work, he or she does not need to prove that the employer is
+at fault for the injuries in order to receive work comp benefits.</p><p>
+However, the work comp claim may be denied – either by the employer or the insurance carrier. When
+this happens, the employee needs a lawyer to assist him or her with obtaining benefits to treat injuries caused by the workplace injury.</p>
+<p>
+Moreover, insurance companies often provide fewer benefits than what the injured employee requires.
+Hiring an attorney helps ensure that the injured employee receives the maximum amount of medical
+care and benefits to treat and cope with the workplace injury.
+
+</p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Catastrophic" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Catastrophic Injury </h1>
+  </div>
+  <div data-role="content">
+
+       <p> 
+Catastrophic injuries include brain injuries, severe burns, amputations, spinal cord injuries, blindness, injuries to nerves in the torso, arms, and shoulders (brachial plexus), and multiple fractures resulting from an auto accident, a defective product, a work-related accident, or other intentional or negligent cause. Both the financial and emotional effects to a victim can be enormous and very taxing.  Such injuries often result in a lifetime of medical treatment and continuous medical care. Victims may also face years or decades of lost income because of disability. Such injuries, in short, can lead to drastic changes in the lives of individuals.</p><p>
+Because of the great damages involved in catastrophic injuries, it is important that the injured hire a law firm with exceptional expertise, an established record of proven successes, and significant financial resources. These cases are often complex and expensive to prosecute. In inexperienced hands the recoveries in these cases can be significantly reduced. The cases can also be lost outright, which is why it is important to choose an experienced catastrophic injury lawyer.
+
+</p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Personal" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Personal Injury </h1>
+  </div>
+  <div data-role="content">
+
+   <p> 
+If you are injured in an accident someone is sometimes legally responsible for your injury. Personal injury is a branch of law designed to protect persons harmed by the careless or intentional actions of others. The personal injury legal system sets out the parameters for compensating victims who have been injured by such careless actions.</p><p>
+To establish a personal injury claim the injured person must be able to demonstrate that another party has the legal responsibility for the injuries. To establish responsibility for the personal injuries, two factors must be proven: 1) liability and 2) damages.</p><p>
+Personal injury matters typically fall within one of the enumerated types of accidents listed below:  </p>
+<ul>
+<li>Auto Accidents</li>
+<li>Truck Accidents</li>
+<li>Motorcycle Accidents</li>
+<li>Pedestrian Accidents</li>
+<li>Dog Bites</li>
+<li>Premises Liability</li>
+<li>	Defective Products</li>
+<li>	Wrongful Death</li>
+<li>	Nursing Home Abuse</li>
+</ul><p>
+If you have been injured you should recognize that a personal injury action can be a complicated endeavor. It would be wise to consult an experienced and reputable personal injury attorney as soon as possible after any accident that causes injury to you or a loved one.
+
+</p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="Consumer" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Consumer/Product Liability </h1>
+  </div>
+  <div data-role="content">
+
+  
+         <p> 
+Consumer product liability law is the set of rules that holds a manufacturer responsible when a product it makes injures someone. Typically, consumer product liability laws apply to items that cause physical injuries, usually because they are defective in some way.</p><p>
+There are three major types of consumer product liability:</p>
+<ul>
+<li><i>A Manufacturing Defect</i> in the way the product is made. A manufacturing defect may be caused poor-quality materials or poor workmanship. For example, a chair made for adults that does not support the average adult weight and breaks as people sit in the chair. </li><br/>
+<li><i>A Design Defect</i> in a way that makes it dangerous. A power saw that doesn’t have a guard over the blade might have a design defect.</li><br/>
+<li>	<i>A Warning Defect</i> occurs when a product doesn’t come with proper warnings, especially about hidden dangers. For instance, a plastic chair that looks like it will hold a 200-pound person but will really only hold a 100-pound person may have a warning defect if the chair does not have a label or instructions explaining the weight limit.</li>
+</ul>
+<p>
+A single product may have multiple defects, of course. For instance, a drug may be designed to help the sick but end up doing more harm than good. This may have to do with the way the drug was manufactured in poor conditions.  Or it may have been due to poor design resulting from inadequate testing.  Additionally, the drug company, wanting to quickly get the drug to market and generate sales, may not provide the public with adequate warnings about the drug. </p><p>
+To win a personal injury case involving consumer product liability, the injured person must show that his injury was caused by the manufacturer’s failure to use reasonable care in manufacturing, designing, and/or placing warnings on the product. In most cases, the injured person does not have to be the one who purchased the product.  For instance, suppose hotel guest hurts him or herself as a result of a faulty hairdryer. This guest may sue the chair’s manufacturer for his or her injury because the hair dryer’s defect caused it, even though the guest himself did not choose or purchase the chair. 
+
+</p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div  data-role="page" id="CivilRights" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="home" data-rel="back" data-icon="back">Back</a>
+    <h1> Civil Rights Violations</h1>
+  </div>
+  <div data-role="content">
+
+  
+ <p> Unfortunately, civil rights violations typically occur by the people we as citizens pay to protect us - the police. Most of the time, we can count on the police to protect and defend us against harm. However, when the police abuse their authority and violate civil rights, they need to be held responsible for their actions.</p><p>
+We fight for civil rights because it is the right thing to do. Some of the civil rights violations that typically occur include: </p>
+<ul>
+<li>False arrests
+<li>	Police brutality</li>	
+<li>	Police misconduct</li>
+<li>	Positional asphyxia</li>
+<li>	Unlawful use of tasers</li>
+<li>	Police use of excessive force</li>
+</ul><p>
+We also represent clients whose federally protected rights have been violated, such as: </p>
+<ul>
+<li>	First Amendment (freedom of speech)</li>
+<li>	Fourth Amendment (use of force or illegal search and seizure)</li>
+<li>	Eighth Amendment (cruel and unusual punishment)</li>
+<li>	Fourteenth Amendment (violations of due process and equal protection)</li>
+</ul>
+</p>
+</div>
+  <div data-role="footer">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#home"  data-theme="d">Home</a></li>
+        <li><a href="#ContactUs" data-theme="c">Contact Us</a></li>
+        <li><a href="#FirmOverview" class="ui-btn-active" data-theme="c">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
